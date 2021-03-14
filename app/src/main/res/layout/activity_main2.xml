@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/accent"
+    tools:context=".MainActivity2">
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="282dp"
+        android:layout_y="551dp"
+        android:text="Eliminar"
+        android:onClick="eliminar"/>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="26dp"
+        android:layout_y="552dp"
+        android:text="Consultar"
+        android:onClick="consulta"/>
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="157dp"
+        android:layout_y="551dp"
+        android:text="Modificar"
+        android:onClick="modificar"/>
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="122dp"
+        android:layout_x="0dp"
+        android:layout_y="7dp"
+        app:srcCompat="@drawable/shippinglog" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_x="26dp"
+        android:layout_y="212dp"
+        android:text="Nombre del Producto"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:textStyle="bold|italic" />
+
+    <EditText
+        android:id="@+id/txtNames"
+        android:layout_width="355dp"
+        android:layout_height="36dp"
+        android:layout_x="25dp"
+        android:layout_y="237dp"
+        android:background="#FFFFFF"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/txtID"
+        android:layout_width="355dp"
+        android:layout_height="36dp"
+        android:layout_x="24dp"
+        android:layout_y="167dp"
+        android:background="#FFFFFF"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_x="24dp"
+        android:layout_y="142dp"
+        android:text="ID ITEM"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="198dp"
+        android:layout_height="wrap_content"
+        android:layout_x="25dp"
+        android:layout_y="284dp"
+        android:text="Peso Paquete (gramos)"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="26dp"
+        android:layout_y="356dp"
+        android:text="Costo del Envio"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:textStyle="bold|italic" />
+
+    <EditText
+        android:id="@+id/txtCostos"
+        android:layout_width="356dp"
+        android:layout_height="36dp"
+        android:layout_x="27dp"
+        android:layout_y="382dp"
+        android:background="#FFFFFF"
+        android:ems="10"
+        android:enabled="false"
+        android:inputType="textPersonName"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="22dp"
+        android:layout_y="444dp"
+        android:text="Continente:"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:textStyle="bold|italic" />
+
+    <Spinner
+        android:id="@+id/spinnerContinente"
+        android:layout_width="238dp"
+        android:layout_height="48dp"
+        android:layout_x="145dp"
+        android:layout_y="437dp" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="91dp"
+        android:layout_y="493dp"
+        android:text="Pais:"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:textStyle="bold|italic" />
+
+    <Spinner
+        android:id="@+id/spinnerPaises"
+        android:layout_width="238dp"
+        android:layout_height="49dp"
+        android:layout_x="145dp"
+        android:layout_y="490dp" />
+
+    <EditText
+        android:id="@+id/txtPesos"
+        android:layout_width="355dp"
+        android:layout_height="36dp"
+        android:layout_x="26dp"
+        android:layout_y="309dp"
+        android:background="#FFFFFF"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+</AbsoluteLayout>

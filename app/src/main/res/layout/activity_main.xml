@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/accent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btnCalcular"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="259dp"
+        android:layout_y="419dp"
+        android:text="Calcular" />
+
+    <Button
+        android:id="@+id/btnGestion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="65dp"
+        android:layout_y="420dp"
+        android:text="gestionar" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="359dp"
+        android:layout_height="461dp"
+        android:layout_x="30dp"
+        android:layout_y="-25dp"
+        app:srcCompat="@drawable/shippingimage" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="349dp"
+        android:layout_height="wrap_content"
+        android:layout_x="41dp"
+        android:layout_y="498dp"
+        android:text="Bienvenido a nuestro sistema de gestión de envíos, desde el equipo de Thunder Shipping te deseamos lo mejor, selecciona Gestionar o Calcular dependiendo de lo que quieras hacer y ante cualquier duda comunícate al correo serviciotecnicoTS@thundershipping.com"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF" />
+</AbsoluteLayout>

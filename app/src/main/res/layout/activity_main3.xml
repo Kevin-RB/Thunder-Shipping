@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/accent"
+    tools:context=".MainActivity3">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="383dp"
+        android:layout_height="119dp"
+        android:layout_x="18dp"
+        android:layout_y="12dp"
+        app:srcCompat="@drawable/shippinglog" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_x="113dp"
+        android:layout_y="517dp"
+        android:gravity="center"
+        android:text="Costo del Envio "
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtCostoEnvio"
+        android:layout_width="335dp"
+        android:layout_height="42dp"
+        android:layout_weight="1"
+        android:layout_x="34dp"
+        android:layout_y="554dp"
+        android:gravity="center"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="20dp"
+        android:layout_y="317dp"
+        android:autoText="false"
+        android:text="Continente:"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:textStyle="bold|italic" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="226dp"
+        android:layout_y="451dp"
+        android:text="INSERTAR"
+        android:onClick="insert"/>
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="104dp"
+        android:layout_height="46dp"
+        android:layout_x="28dp"
+        android:layout_y="377dp"
+        android:gravity="center"
+        android:text="Pais:"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:textStyle="bold|italic" />
+
+    <Spinner
+        android:id="@+id/spinnerPais"
+        android:layout_width="254dp"
+        android:layout_height="58dp"
+        android:layout_margin="10dp"
+        android:layout_x="152dp"
+        android:layout_y="376dp" />
+
+    <Spinner
+        android:id="@+id/spinnerCont"
+        android:layout_width="251dp"
+        android:layout_height="56dp"
+        android:layout_margin="10dp"
+        android:layout_x="156dp"
+        android:layout_y="306dp" />
+
+    <Button
+        android:id="@+id/btnHacerCalculo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_x="73dp"
+        android:layout_y="451dp"
+        android:onClick="RealizarCal"
+        android:text="CALCULAR" />
+
+    <EditText
+        android:id="@+id/txtInputNombre"
+        android:layout_width="367dp"
+        android:layout_height="40dp"
+        android:layout_x="24dp"
+        android:layout_y="168dp"
+        android:background="#FFFFFF"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="24dp"
+        android:layout_y="222dp"
+        android:text="Peso Paquete (gramos)"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/txtInputPeso"
+        android:layout_width="365dp"
+        android:layout_height="41dp"
+        android:layout_x="25dp"
+        android:layout_y="250dp"
+        android:background="#FFFFFF"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="23dp"
+        android:layout_y="142dp"
+        android:text="Nombre del Producto"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp" />
+
+
+</AbsoluteLayout>
