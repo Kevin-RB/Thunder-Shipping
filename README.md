@@ -15,3 +15,6 @@ Built in:
 ![Thunder-shipping](https://user-images.githubusercontent.com/69731479/111053648-808f3700-8433-11eb-838e-8139b79c48f1.gif)
 ![Thunder-shipping](https://user-images.githubusercontent.com/69731479/111053649-8127cd80-8433-11eb-9364-1ee95aa5add1.gif)
 ![Thunder-shipping](https://user-images.githubusercontent.com/69731479/111053650-8127cd80-8433-11eb-9f74-dc6895368f83.gif)
+
+## Installation
+Download de project and open it in android studio o with your phone on debugger mode
