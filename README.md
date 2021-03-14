@@ -17,4 +17,4 @@ Built in:
 ![Thunder-shipping](https://user-images.githubusercontent.com/69731479/111053650-8127cd80-8433-11eb-9f74-dc6895368f83.gif)
 
 ## Installation
-Download de project and open it in android studio o with your phone on debugger mode
+Download de project and open it in android studio o with your phone on debugger mode.
